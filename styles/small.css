@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafffe;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    background-color: #1b5e20;
+    color: #ffffff;
+}
+
+header img {
+    width: 40px;
+    height: auto;
+}
+
+header span {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+#hamburger {
+    display: block;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #2e7d32;
+}
+
+nav ul.show {
+    display: flex;
+}
+
+nav li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #43a047;
+}
+
+nav a.active {
+    background-color: #43a047;
+    font-weight: 700;
+}
+
+main {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: #1b5e20;
+}
+
+h2 {
+    background-color: #1b5e20;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.75rem;
+}
+
+section {
+    margin-bottom: 1.5rem;
+}
+
+section p {
+    padding: 0 0.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content-wrapper {
+    display: block;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.button-group button {
+    padding: 0.5rem 1.5rem;
+    border: 2px solid #1b5e20;
+    background-color: #ffffff;
+    color: #1b5e20;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
+
+.button-group button:hover {
+    background-color: #e8f5e9;
+}
+
+.button-group button.active-btn {
+    background-color: #1b5e20;
+    color: #ffffff;
+}
+
+#course-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.course-card {
+    padding: 0.6rem 1rem;
+    text-align: center;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    font-weight: 600;
+}
+
+.course-card.completed {
+    background-color: #66bb6a;
+    color: #1a1a1a;
+}
+
+.course-card.incomplete {
+    background-color: #e0e0e0;
+    color: #1a1a1a;
+}
+
+#credits {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 0.75rem;
+    color: #1b5e20;
+}
+
+footer {
+    background-color: #1b5e20;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.social-icons a {
+    color: #ffffff;
+    display: inline-block;
+}
+
+.social-icons svg {
+    width: 30px;
+    height: 30px;
+    fill: #ffffff;
+}
+
+.social-icons a:hover svg {
+    fill: #66bb6a;
+}
+
+footer p {
+    font-size: 0.85rem;
+    margin-bottom: 0.3rem;
+}
