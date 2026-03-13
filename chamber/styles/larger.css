@@ -1,0 +1,50 @@
+@media only screen and (min-width: 768px) {
+    header {
+        flex-wrap: nowrap;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        width: auto;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 0;
+    }
+
+    nav a {
+        background-color: transparent;
+        border-bottom: none;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+    }
+
+    nav a:hover {
+        background-color: var(--clr-primary-light);
+    }
+
+    nav a.active {
+        background-color: var(--clr-primary-light);
+        border-left: none;
+        border-bottom: 2px solid var(--clr-accent);
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+
+    footer section {
+        margin-bottom: 0;
+    }
+}

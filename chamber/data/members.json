@@ -1,0 +1,67 @@
+{
+  "members": [
+    {
+      "name": "Jacaranda Digital Solutions",
+      "address": "123 Church Street, Pretoria, 0002",
+      "phone": "+27 12 345 6789",
+      "website": "https://www.jacarandadigital.co.za",
+      "image": "member1.svg",
+      "membershipLevel": 3,
+      "description": "Full-service digital marketing agency"
+    },
+    {
+      "name": "Tshwane Auto Repairs",
+      "address": "45 Paul Kruger Street, Pretoria, 0001",
+      "phone": "+27 12 442 3310",
+      "website": "https://www.tshwaneauto.co.za",
+      "image": "member2.svg",
+      "membershipLevel": 2,
+      "description": "Trusted automotive service centre since 1998"
+    },
+    {
+      "name": "Hatfield Legal Consultants",
+      "address": "88 Burnett Street, Hatfield, 0083",
+      "phone": "+27 12 362 1500",
+      "website": "https://www.hatfieldlegal.co.za",
+      "image": "member3.svg",
+      "membershipLevel": 3,
+      "description": "Corporate and commercial law specialists"
+    },
+    {
+      "name": "Centurion Fresh Foods",
+      "address": "12 Embankment Road, Centurion, 0157",
+      "phone": "+27 12 663 7800",
+      "website": "https://www.centurionfresh.co.za",
+      "image": "member4.svg",
+      "membershipLevel": 1,
+      "description": "Wholesale fresh produce supplier"
+    },
+    {
+      "name": "Menlyn Tech Hub",
+      "address": "200 Atterbury Road, Menlyn, 0081",
+      "phone": "+27 12 348 9200",
+      "website": "https://www.menlyntechhub.co.za",
+      "image": "member5.svg",
+      "membershipLevel": 3,
+      "description": "Co-working space and tech incubator"
+    },
+    {
+      "name": "Brooklyn Accounting Services",
+      "address": "34 Middle Street, Brooklyn, 0181",
+      "phone": "+27 12 460 5510",
+      "website": "https://www.brooklynaccounting.co.za",
+      "image": "member6.svg",
+      "membershipLevel": 2,
+      "description": "Tax advisory and bookkeeping services"
+    },
+    {
+      "name": "Mamelodi Construction Group",
+      "address": "5 Tsamaya Avenue, Mamelodi, 0122",
+      "phone": "+27 12 805 4400",
+      "website": "https://www.mamelodiconstruction.co.za",
+      "image": "member7.svg",
+      "membershipLevel": 1,
+      "description": "Residential and commercial building contractor"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the Pretoria Chamber of Commerce business directory featuring local businesses and services in Gauteng, South Africa">
+    <meta name="author" content="Tumisang Dumisani Msiza">
+    <meta property="og:title" content="Pretoria Chamber of Commerce | Business Directory">
+    <meta property="og:description" content="Discover trusted local businesses in Pretoria through the official Chamber of Commerce member directory">
+    <meta property="og:image" content="https://caeser32.github.io/wdd231/chamber/images/chamber-social.svg">
+    <meta property="og:url" content="https://caeser32.github.io/wdd231/chamber/directory.html">
+    <link rel="icon" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/directory.js" defer></script>
+    <title>Pretoria Chamber of Commerce | Directory</title>
+</head>
+<body>
+    <header>
+        <div class="header-brand">
+            <img src="favicon.svg" alt="Pretoria Chamber of Commerce Logo" width="50" height="50">
+            <span>Pretoria Chamber of Commerce</span>
+        </div>
+        <button id="hamburger" aria-label="Toggle navigation">&#9776;</button>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Business Directory</h1>
+        <div class="toggle-buttons">
+            <button id="grid" aria-label="Grid view">Grid</button>
+            <button id="list" aria-label="List view">List</button>
+        </div>
+        <div id="directory" class="grid"></div>
+    </main>
+    <footer>
+        <div class="footer-grid">
+            <section class="footer-contact">
+                <h2>Pretoria Chamber of Commerce</h2>
+                <p>250 Madiba Street</p>
+                <p>Pretoria, Gauteng, 0002</p>
+                <p>Email: info@pretoriachamber.co.za</p>
+                <p>Phone: +27 12 348 2100</p>
+            </section>
+            <section class="footer-social">
+                <h2>Follow Us</h2>
+                <ul>
+                    <li><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube Channel</a></li>
+                    <li><a href="https://www.x.com/" target="_blank" rel="noopener noreferrer">X (Twitter) Profile</a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn Page</a></li>
+                </ul>
+            </section>
+            <section class="footer-info">
+                <p>WDD 231 Class Project</p>
+                <p>Tumisang Dumisani Msiza</p>
+                <p>&copy; <span id="currentYear"></span> Pretoria Chamber of Commerce</p>
+                <p>Last modified: <span id="lastModified"></span></p>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>

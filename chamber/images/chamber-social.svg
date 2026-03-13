@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#1a3c6e"/>
+  <rect x="40" y="40" width="1120" height="550" rx="16" fill="none" stroke="#3a7bd5" stroke-width="3"/>
+  <text x="600" y="270" text-anchor="middle" font-family="sans-serif" font-size="64" font-weight="bold" fill="#ffffff">Pretoria Chamber</text>
+  <text x="600" y="350" text-anchor="middle" font-family="sans-serif" font-size="64" font-weight="bold" fill="#ffffff">of Commerce</text>
+  <text x="600" y="430" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#a8c4e6">Business Directory | Gauteng, South Africa</text>
+</svg>
