@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the Pretoria Chamber of Commerce — connecting local businesses, events, and opportunities in Gauteng, South Africa">
+    <meta name="author" content="Tumisang Dumisani Msiza">
+    <meta property="og:title" content="Pretoria Chamber of Commerce - Home">
+    <meta property="og:description" content="Discover local businesses, events, and weather in Pretoria through the official Chamber of Commerce">
+    <meta property="og:url" content="https://caeser32.github.io/wdd231/chamber/">
+    <meta property="og:image" content="https://caeser32.github.io/wdd231/chamber/images/og-image.webp">
+    <link rel="icon" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/home.js" defer></script>
+    <title>Pretoria Chamber of Commerce - Home</title>
+</head>
+<body>
+    <header>
+        <div class="header-brand">
+            <img src="favicon.svg" alt="Pretoria Chamber of Commerce Logo" width="50" height="50">
+            <span>Pretoria Chamber of Commerce</span>
+        </div>
+        <button id="hamburger" aria-label="Toggle navigation">&#9776;</button>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Pretoria Chamber of Commerce</h1>
+        <section id="hero">
+            <picture>
+                <source media="(min-width: 768px)" srcset="images/hero.webp">
+                <img src="images/hero-small.webp" alt="Pretoria jacaranda tree-lined street" loading="eager" width="1200" height="800">
+            </picture>
+            <a href="join.html" class="cta-link">Join the Chamber</a>
+        </section>
+        <section id="events">
+            <h2>Current Events</h2>
+            <div class="events-grid">
+                <article class="event-card">
+                    <h3>Annual Business Networking Gala</h3>
+                    <p class="event-date">15 April 2026</p>
+                    <p>Join fellow business leaders at the Pretoria Country Club for an evening of networking and keynote addresses on the local economy.</p>
+                </article>
+                <article class="event-card">
+                    <h3>Small Business Workshop</h3>
+                    <p class="event-date">22 April 2026</p>
+                    <p>Free workshop for entrepreneurs covering digital marketing, tax compliance, and funding opportunities available to Gauteng businesses.</p>
+                </article>
+                <article class="event-card">
+                    <h3>Jacaranda Innovation Summit</h3>
+                    <p class="event-date">5 May 2026</p>
+                    <p>A two-day summit at Menlyn Tech Hub exploring innovation, AI, and the future of technology in South Africa.</p>
+                </article>
+            </div>
+        </section>
+        <div class="home-grid">
+            <section id="weather">
+                <h2>Weather</h2>
+                <div id="weather-current">
+                    <p>Loading weather data...</p>
+                </div>
+                <h3>3-Day Forecast</h3>
+                <div id="weather-forecast">
+                    <p>Loading forecast...</p>
+                </div>
+            </section>
+            <section id="spotlight">
+                <h2>Member Spotlight</h2>
+                <div id="spotlight-cards">
+                    <p>Loading spotlights...</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-grid">
+            <section class="footer-contact">
+                <h2>Pretoria Chamber of Commerce</h2>
+                <p>250 Madiba Street</p>
+                <p>Pretoria, Gauteng, 0002</p>
+                <p>Email: info@pretoriachamber.co.za</p>
+                <p>Phone: +27 12 348 2100</p>
+            </section>
+            <section class="footer-social">
+                <h2>Follow Us</h2>
+                <ul>
+                    <li><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube Channel</a></li>
+                    <li><a href="https://www.x.com/" target="_blank" rel="noopener noreferrer">X (Twitter) Profile</a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn Page</a></li>
+                </ul>
+            </section>
+            <section class="footer-info">
+                <p>WDD 231 Class Project</p>
+                <p>Tumisang Dumisani Msiza</p>
+                <p>&copy; <span id="currentYear"></span> Pretoria Chamber of Commerce</p>
+                <p>Last modified: <span id="lastModified"></span></p>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
