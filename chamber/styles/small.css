@@ -484,3 +484,224 @@ footer p {
 .spotlight-card a:hover {
     text-decoration: underline;
 }
+
+/* === JOIN PAGE STYLES === */
+
+.join-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--clr-text);
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    margin-top: 0.25rem;
+    border: 1px solid var(--clr-border);
+    border-radius: 4px;
+    font-family: var(--font-main);
+    font-size: 0.95rem;
+    background-color: var(--clr-white);
+    color: var(--clr-text);
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+    outline: 2px solid var(--clr-accent);
+    border-color: var(--clr-accent);
+}
+
+form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    margin-top: 0.5rem;
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+    border: none;
+    border-radius: 4px;
+    font-family: var(--font-main);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: var(--clr-primary-light);
+}
+
+.membership-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.membership-card {
+    background-color: var(--clr-card-bg);
+    border: 1px solid var(--clr-border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    text-align: center;
+    opacity: 0;
+    animation: fadeSlideIn 0.6s ease forwards;
+}
+
+.membership-card:nth-child(1) { animation-delay: 0.1s; }
+.membership-card:nth-child(2) { animation-delay: 0.3s; }
+.membership-card:nth-child(3) { animation-delay: 0.5s; }
+.membership-card:nth-child(4) { animation-delay: 0.7s; }
+
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.membership-card h2 {
+    color: var(--clr-primary);
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+    background-color: transparent;
+    padding: 0;
+}
+
+.membership-card p {
+    font-size: 0.85rem;
+    color: var(--clr-text-light);
+    margin-bottom: 0.25rem;
+}
+
+.membership-card .price {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--clr-accent);
+    margin: 0.5rem 0;
+}
+
+.card-link {
+    display: inline-block;
+    padding: 0.4rem 1.2rem;
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+    border: none;
+    border-radius: 4px;
+    font-family: var(--font-main);
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.card-link:hover {
+    background-color: var(--clr-primary-light);
+}
+
+dialog {
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--clr-border);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    max-width: 90%;
+    width: 450px;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+dialog h2 {
+    color: var(--clr-primary);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    padding: 0;
+}
+
+dialog ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.25rem;
+}
+
+dialog li {
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+    color: var(--clr-text-light);
+}
+
+.close-modal {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+    border: none;
+    border-radius: 4px;
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.close-modal:hover {
+    background-color: var(--clr-primary-light);
+}
+
+/* === THANK YOU PAGE STYLES === */
+
+.thankyou-info {
+    background-color: var(--clr-card-bg);
+    border: 1px solid var(--clr-border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 600px;
+}
+
+.thankyou-info > p {
+    margin-bottom: 1rem;
+    color: var(--clr-text-light);
+    font-size: 0.95rem;
+}
+
+.thankyou-details p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--clr-border);
+}
+
+.thankyou-details span {
+    font-weight: 700;
+    color: var(--clr-primary);
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.6rem 1.5rem;
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    background-color: var(--clr-primary-light);
+}

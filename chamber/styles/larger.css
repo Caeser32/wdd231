@@ -68,4 +68,27 @@
         font-size: 1.2rem;
         padding: 1rem 2.5rem;
     }
+
+    /* === JOIN PAGE DESKTOP === */
+
+    .join-content {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        gap: 2rem;
+        align-items: start;
+    }
+
+    .membership-cards {
+        grid-template-columns: 1fr;
+    }
+
+    form button[type="submit"] {
+        width: auto;
+    }
+
+    /* === THANK YOU PAGE DESKTOP === */
+
+    .thankyou-info {
+        max-width: 700px;
+    }
 }
