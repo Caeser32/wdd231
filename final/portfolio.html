@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse the full portfolio of Caesar_Siza — story time animations, character designs, graphic design, and video production by Tumisang Msiza.">
+    <meta name="author" content="Tumisang Dumisani Msiza">
+    <meta property="og:title" content="Portfolio — Caesar_Siza Animation & Design">
+    <meta property="og:description" content="Explore story time animations, character designs, and creative projects by Caesar_Siza.">
+    <meta property="og:image" content="https://caeser32.github.io/wdd231/final/images/og-image.webp">
+    <meta property="og:url" content="https://caeser32.github.io/wdd231/final/portfolio.html">
+    <title>Portfolio — Caesar_Siza Animation & Design Studio</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo">Caesar_Siza</a>
+            <button class="menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="container portfolio-header">
+            <h1>My Portfolio</h1>
+        </section>
+
+        <section class="container">
+            <div class="filter-bar">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="story-time">Story Time</button>
+                <button class="filter-btn" data-category="character-design">Character Design</button>
+                <button class="filter-btn" data-category="graphic-design">Graphic Design</button>
+                <button class="filter-btn" data-category="video-production">Video Production</button>
+            </div>
+
+            <p class="project-count" id="project-count">Showing 0 of 0 projects</p>
+
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Dynamically loaded by portfolio.js -->
+            </div>
+        </section>
+
+        <dialog id="project-modal">
+            <div class="modal-content" id="modal-body">
+                <!-- Populated by portfolio.js -->
+            </div>
+        </dialog>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Caesar_Siza Animation &amp; Design Studio | Tumisang Dumisani Msiza</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+        <nav class="footer-links">
+            <a href="https://www.youtube.com/@caesar_siza9698" target="_blank" rel="noopener">YouTube</a>
+            <a href="attributions.html">Attributions</a>
+            <a href="#" target="_blank" rel="noopener">Demo Video</a><!-- TODO: Replace # with actual YouTube/Loom video link after recording -->
+        </nav>
+    </footer>
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/portfolio.js"></script>
+</body>
+</html>

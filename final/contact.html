@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Caesar_Siza for animation commissions, design collaborations, and creative inquiries. Contact Tumisang Msiza in Pretoria, South Africa.">
+    <meta name="author" content="Tumisang Dumisani Msiza">
+    <meta property="og:title" content="Contact — Caesar_Siza Animation & Design">
+    <meta property="og:description" content="Reach out to Caesar_Siza for commissions, collaborations, and creative project inquiries.">
+    <meta property="og:image" content="https://caeser32.github.io/wdd231/final/images/og-image.webp">
+    <meta property="og:url" content="https://caeser32.github.io/wdd231/final/contact.html">
+    <title>Contact — Caesar_Siza Animation & Design Studio</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo">Caesar_Siza</a>
+            <button class="menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <h1 class="section-title">Get in Touch</h1>
+            <p class="message-count" id="message-count">You have sent 0 message(s) previously.</p>
+            <div class="contact-layout">
+                <div class="contact-form-section">
+                    <form id="contact-form" action="form-action.html" method="GET">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required minlength="3" placeholder="Your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">— Select a subject —</option>
+                                <option value="General Inquiry">General Inquiry</option>
+                                <option value="Commission Request">Commission Request</option>
+                                <option value="Collaboration">Collaboration</option>
+                                <option value="Feedback">Feedback</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required minlength="10" rows="6" placeholder="Tell me about your project or idea..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <aside class="contact-info">
+                    <h2>Contact Info</h2>
+                    <div class="info-item">
+                        <span class="info-icon" aria-hidden="true">&#9993;</span>
+                        <div>
+                            <strong>Email</strong><br>
+                            <a href="mailto:btdmsiza@gmail.com">btdmsiza@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon" aria-hidden="true">&#9654;</span>
+                        <div>
+                            <strong>YouTube</strong><br>
+                            <a href="https://www.youtube.com/@caesar_siza9698" target="_blank" rel="noopener">@caesar_siza9698</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon" aria-hidden="true">&#9873;</span>
+                        <div>
+                            <strong>Location</strong><br>
+                            Pretoria, South Africa
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Caesar_Siza Animation &amp; Design Studio | Tumisang Dumisani Msiza</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+        <nav class="footer-links">
+            <a href="https://www.youtube.com/@caesar_siza9698" target="_blank" rel="noopener">YouTube</a>
+            <a href="attributions.html">Attributions</a>
+            <a href="#" target="_blank" rel="noopener">Demo Video</a><!-- TODO: Replace # with actual YouTube/Loom video link after recording -->
+        </nav>
+    </footer>
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/contact.js"></script>
+</body>
+</html>

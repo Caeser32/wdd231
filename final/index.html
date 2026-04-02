@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Caesar_Siza Animation & Design Studio — original character animation, story time videos, and creative design by Tumisang Dumisani Msiza from Pretoria, South Africa.">
+    <meta name="author" content="Tumisang Dumisani Msiza">
+    <meta property="og:title" content="Caesar_Siza Animation & Design Studio — Home">
+    <meta property="og:description" content="Explore original animations, character designs, and creative work by Caesar_Siza from Pretoria, South Africa.">
+    <meta property="og:image" content="https://caeser32.github.io/wdd231/final/images/og-image.webp">
+    <meta property="og:url" content="https://caeser32.github.io/wdd231/final/index.html">
+    <title>Caesar_Siza Animation & Design Studio — Home</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo">Caesar_Siza</a>
+            <button class="menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <picture>
+                <source media="(min-width: 768px)" srcset="images/hero-large.webp">
+                <img src="images/hero-small.webp" alt="Caesar_Siza studio hero banner showing animated characters" width="1200" height="600" loading="eager">
+            </picture>
+            <div class="hero-overlay">
+                <h1>Caesar_Siza Animation &amp; Design Studio</h1>
+                <p>Original character animation, story time videos, and creative design from Pretoria, South Africa.</p>
+                <a href="portfolio.html" class="btn btn-primary">View My Work</a>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <img src="images/tumz-profile.webp" alt="Tumisang Dumisani Msiza portrait" width="400" height="400" loading="lazy" class="about-image">
+                    <div class="about-text">
+                        <p>Hi, I'm <strong>Tumisang Dumisani Msiza</strong>, the creator behind Caesar_Siza. Based in Pretoria, South Africa, I specialize in character animation, story time videos, and graphic design. My work blends personal storytelling with vibrant character art to create animations that connect with audiences.</p>
+                        <p>From sketch to screen, I use tools like Adobe Animate, After Effects, Procreate, and Illustrator to bring my characters and stories to life. Whether it's a relatable story time episode or a detailed character design sheet, every project is crafted with passion and purpose.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="featured-grid" id="featured-projects">
+                <!-- Dynamically loaded by home.js -->
+            </div>
+        </section>
+
+        <section class="youtube-section">
+            <div class="container">
+                <h2 class="section-title">Watch My Animations</h2>
+                <div class="youtube-wrapper">
+                    <iframe src="https://www.youtube-nocookie.com/embed/52uxGTDkD1U" title="Anxiety - Caesar_Siza Animation" width="560" height="315" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p class="youtube-link">
+                    <a href="https://www.youtube.com/@caesar_siza9698" target="_blank" rel="noopener" class="btn btn-secondary">Visit My YouTube Channel</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Interested in Working Together?</h2>
+            <p>I'm open to commissions, collaborations, and creative projects.</p>
+            <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Caesar_Siza Animation &amp; Design Studio | Tumisang Dumisani Msiza</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+        <nav class="footer-links">
+            <a href="https://www.youtube.com/@caesar_siza9698" target="_blank" rel="noopener">YouTube</a>
+            <a href="attributions.html">Attributions</a>
+            <a href="#" target="_blank" rel="noopener">Demo Video</a><!-- TODO: Replace # with actual YouTube/Loom video link after recording -->
+        </nav>
+    </footer>
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/home.js"></script>
+</body>
+</html>

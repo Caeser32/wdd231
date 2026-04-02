@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "title": "Third Wheel / Candleholder",
+    "description": "A story time animation about the awkward reality of being the extra person in every friend group.",
+    "image": "images/zee.webp",
+    "category": "story-time",
+    "year": 2022,
+    "tools": "Adobe Animate, After Effects",
+    "duration": "2:30"
+  },
+  {
+    "id": 2,
+    "title": "Anxiety",
+    "description": "An animated short about living with anxiety, told through personal experiences and character expression.",
+    "image": "images/freeze.webp",
+    "category": "story-time",
+    "year": 2023,
+    "tools": "Adobe Animate, Premiere Pro",
+    "duration": "3:15",
+    "youtubeId": "52uxGTDkD1U"
+  },
+  {
+    "id": 3,
+    "title": "Studio Session",
+    "description": "A story time animation about a wild day at the studio with unexpected company.",
+    "image": "images/bar.webp",
+    "category": "story-time",
+    "year": 2023,
+    "tools": "Adobe Animate, Photoshop",
+    "duration": "2:45"
+  },
+  {
+    "id": 4,
+    "title": "Dynamic Duo",
+    "description": "Original character designs exploring contrasting personalities through visual style.",
+    "image": "images/creative.webp",
+    "category": "character-design",
+    "year": 2022,
+    "tools": "Procreate, Photoshop",
+    "duration": "N/A"
+  },
+  {
+    "id": 5,
+    "title": "Walk Cycle Study",
+    "description": "An animation exercise focused on fluid character movement and weight distribution.",
+    "image": "images/kf_0000.webp",
+    "category": "story-time",
+    "year": 2024,
+    "tools": "Adobe Animate",
+    "duration": "0:15"
+  },
+  {
+    "id": 6,
+    "title": "The Squad",
+    "description": "A group portrait of original characters from my earlier character design work.",
+    "image": "images/tumz-persona.webp",
+    "category": "character-design",
+    "year": 2021,
+    "tools": "Procreate",
+    "duration": "N/A"
+  },
+  {
+    "id": 7,
+    "title": "Cast Lineup",
+    "description": "A full cast illustration showcasing characters from various animation projects.",
+    "image": "images/tumz.webp",
+    "category": "character-design",
+    "year": 2024,
+    "tools": "Procreate, Illustrator",
+    "duration": "N/A"
+  },
+  {
+    "id": 8,
+    "title": "Youth Church Oscars 2016",
+    "description": "A fun highlight reel from the Youth Church Oscars event featuring creative skits and awards.",
+    "image": "images/profile.webp",
+    "category": "video-production",
+    "year": 2016,
+    "tools": "Premiere Pro, After Effects",
+    "duration": "5:00",
+    "youtubeId": "t8Iij1ZNzqA"
+  },
+  {
+    "id": 9,
+    "title": "Brand Identity Concepts",
+    "description": "Logo and identity explorations created during graphic design coursework.",
+    "image": "images/creative.webp",
+    "category": "graphic-design",
+    "year": 2024,
+    "tools": "Illustrator, Photoshop",
+    "duration": "N/A"
+  },
+  {
+    "id": 10,
+    "title": "Motion Graphics Reel",
+    "description": "A compilation of motion graphics and title sequences from university projects.",
+    "image": "images/bar.webp",
+    "category": "graphic-design",
+    "year": 2025,
+    "tools": "After Effects, Premiere Pro",
+    "duration": "1:30"
+  },
+  {
+    "id": 11,
+    "title": "Hero vs Villain Storyboard",
+    "description": "A detailed storyboard breakdown of an original hero and villain confrontation sequence.",
+    "image": "images/zee.webp",
+    "category": "story-time",
+    "year": 2023,
+    "tools": "Procreate, Storyboarder",
+    "duration": "N/A"
+  },
+  {
+    "id": 12,
+    "title": "Chibi Collection",
+    "description": "A set of chibi-style character illustrations created for social media content.",
+    "image": "images/tumz-persona.webp",
+    "category": "character-design",
+    "year": 2022,
+    "tools": "Procreate",
+    "duration": "N/A"
+  },
+  {
+    "id": 13,
+    "title": "Poster Design Series",
+    "description": "A series of event posters designed for university clubs and community organizations.",
+    "image": "images/freeze.webp",
+    "category": "graphic-design",
+    "year": 2024,
+    "tools": "Illustrator, InDesign",
+    "duration": "N/A"
+  },
+  {
+    "id": 14,
+    "title": "Expression Sheet Pack",
+    "description": "Character expression sheets showing a range of emotions for animation reference.",
+    "image": "images/kf_0000.webp",
+    "category": "character-design",
+    "year": 2024,
+    "tools": "Procreate, Photoshop",
+    "duration": "N/A"
+  },
+  {
+    "id": 15,
+    "title": "Intro Animation Template",
+    "description": "A reusable animated intro template designed for YouTube content creators.",
+    "image": "images/tumz.webp",
+    "category": "video-production",
+    "year": 2025,
+    "tools": "After Effects, Media Encoder",
+    "duration": "0:10"
+  }
+]
