@@ -24,6 +24,15 @@
   text-align: center;
   padding: 2rem 1rem;
   max-width: 700px;
+  color: var(--color-white);
+}
+
+.hero-overlay a {
+  color: var(--color-white);
+}
+
+.hero-overlay .btn {
+  color: var(--color-white);
 }
 
 .hero-overlay h1 {

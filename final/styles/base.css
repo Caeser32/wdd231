@@ -52,7 +52,7 @@ h3 { font-size: 1.2rem; }
 p { margin-bottom: 1rem; }
 
 a {
-  color: var(--color-accent);
+  color: #C73850;
   text-decoration: none;
   transition: color 0.2s;
 }
@@ -192,7 +192,7 @@ main {
 
 .category-badge {
   display: inline-block;
-  background-color: var(--color-accent);
+  background-color: #C73850;
   color: var(--color-white);
   font-family: var(--font-heading);
   font-weight: 600;
@@ -222,22 +222,22 @@ main {
   outline-offset: 2px;
 }
 
-.btn-primary {
-  background-color: var(--color-accent);
+.btn-action {
+  background-color: #C73850;
   color: var(--color-white);
 }
 
-.btn-primary:hover {
-  background-color: #d63a52;
+.btn-action:hover {
+  background-color: #A82E43;
   color: var(--color-white);
 }
 
-.btn-secondary {
+.btn-alt {
   background-color: var(--color-primary);
   color: var(--color-white);
 }
 
-.btn-secondary:hover {
+.btn-alt:hover {
   background-color: #12121f;
   color: var(--color-white);
 }
@@ -351,7 +351,7 @@ footer p {
 }
 
 .footer-links a {
-  color: var(--color-accent);
+  color: #FF6B81;
   font-family: var(--font-heading);
   font-weight: 600;
   font-size: 0.9rem;
