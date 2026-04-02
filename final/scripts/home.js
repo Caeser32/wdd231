@@ -11,12 +11,12 @@ async function loadFeaturedProjects() {
       .filter(p => [2, 4, 7].includes(p.id));
 
     const html = featured.map(project => `
-      <article class="card">
+      <article class="project-card">
         <img src="${project.image}" alt="${project.title}" width="800" height="500" loading="lazy">
-        <div class="card-body">
-          <span class="category-badge">${project.category.replace('-', ' ')}</span>
+        <div class="project-card-body">
+          <span class="tag-label">${project.category.replace('-', ' ')}</span>
           <h3>${project.title}</h3>
-          <p class="card-year">${project.year}</p>
+          <p class="project-card-year">${project.year}</p>
         </div>
       </article>
     `).join('');

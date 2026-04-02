@@ -12,12 +12,12 @@ function formatCategory(cat) {
 
 function renderProjects(projects) {
   const html = projects.map(project => `
-    <article class="card" data-id="${project.id}">
+    <article class="project-card" data-id="${project.id}">
       <img src="${project.image}" alt="${project.title}" width="800" height="500" loading="lazy">
-      <div class="card-body">
-        <span class="category-badge">${formatCategory(project.category)}</span>
+      <div class="project-card-body">
+        <span class="tag-label">${formatCategory(project.category)}</span>
         <h3>${project.title}</h3>
-        <p class="card-year">${project.year}</p>
+        <p class="project-card-year">${project.year}</p>
       </div>
     </article>
   `).join('');
@@ -25,7 +25,7 @@ function renderProjects(projects) {
   galleryGrid.innerHTML = html;
   projectCount.textContent = `Showing ${projects.length} of ${allProjects.length} projects`;
 
-  galleryGrid.querySelectorAll('.card').forEach(card => {
+  galleryGrid.querySelectorAll('.project-card').forEach(card => {
     card.addEventListener('click', () => {
       const id = parseInt(card.dataset.id, 10);
       const project = allProjects.find(p => p.id === id);

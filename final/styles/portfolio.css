@@ -33,9 +33,9 @@
 }
 
 .filter-btn.active {
-  background-color: var(--color-accent);
+  background-color: #C73850;
   color: var(--color-white);
-  border-color: var(--color-accent);
+  border-color: #C73850;
 }
 
 /* ===== Project Count ===== */
@@ -53,11 +53,11 @@
   gap: 1.5rem;
 }
 
-.gallery-grid .card {
+.gallery-grid .project-card {
   cursor: pointer;
 }
 
-.card-year {
+.project-card-year {
   font-size: 0.85rem;
   color: #888;
   margin-top: 0.25rem;
