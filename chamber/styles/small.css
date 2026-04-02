@@ -705,3 +705,119 @@ dialog li {
 .back-link:hover {
     background-color: var(--clr-primary-light);
 }
+
+/* === DISCOVER PAGE STYLES === */
+
+.visitor-message {
+    background-color: var(--clr-accent);
+    color: var(--clr-white);
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+.discover-grid {
+    display: grid;
+    grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8";
+    gap: 1rem;
+}
+
+.discover-card:nth-child(1) {
+    grid-area: card1;
+}
+
+.discover-card:nth-child(2) {
+    grid-area: card2;
+}
+
+.discover-card:nth-child(3) {
+    grid-area: card3;
+}
+
+.discover-card:nth-child(4) {
+    grid-area: card4;
+}
+
+.discover-card:nth-child(5) {
+    grid-area: card5;
+}
+
+.discover-card:nth-child(6) {
+    grid-area: card6;
+}
+
+.discover-card:nth-child(7) {
+    grid-area: card7;
+}
+
+.discover-card:nth-child(8) {
+    grid-area: card8;
+}
+
+.discover-card {
+    background-color: var(--clr-card-bg);
+    border: 1px solid var(--clr-border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.discover-card h2 {
+    color: var(--clr-primary);
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.discover-card figure {
+    margin: 0 0 0.75rem 0;
+    padding: 0;
+}
+
+.discover-card figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+}
+
+.discover-card address {
+    font-style: normal;
+    font-size: 0.85rem;
+    color: var(--clr-text-light);
+    margin-bottom: 0.5rem;
+}
+
+.discover-card p {
+    font-size: 0.85rem;
+    color: var(--clr-text-light);
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+}
+
+.discover-card button {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+    border: none;
+    border-radius: 4px;
+    font-family: var(--font-main);
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.discover-card button:hover {
+    background-color: var(--clr-primary-light);
+}
